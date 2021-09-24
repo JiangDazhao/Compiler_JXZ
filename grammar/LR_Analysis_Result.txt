@@ -1,0 +1,1021 @@
+·ûºÅ´®: int a ; int b ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: int
+ACTION±í: s127
+GOTO±í: --
+×´Ì¬Õ»:[0, 127]
+·ûºÅÕ»:[#, int]
+·ûºÅ´®: a ; int b ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: T -> int
+ACTION±í: r7
+GOTO±í: 124
+×´Ì¬Õ»:[0, 124]
+·ûºÅÕ»:[#, T]
+·ûºÅ´®: a ; int b ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: a
+ACTION±í: s125
+GOTO±í: --
+×´Ì¬Õ»:[0, 124, 125]
+·ûºÅÕ»:[#, T, a]
+·ûºÅ´®: ; int b ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s126
+GOTO±í: --
+×´Ì¬Õ»:[0, 124, 125, 126]
+·ûºÅÕ»:[#, T, a, ;]
+·ûºÅ´®: int b ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: D -> T id ;
+ACTION±í: r6
+GOTO±í: 2
+×´Ì¬Õ»:[0, 2]
+·ûºÅÕ»:[#, D]
+·ûºÅ´®: int b ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: int
+ACTION±í: s127
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 127]
+·ûºÅÕ»:[#, D, int]
+·ûºÅ´®: b ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: T -> int
+ACTION±í: r7
+GOTO±í: 124
+×´Ì¬Õ»:[0, 2, 124]
+·ûºÅÕ»:[#, D, T]
+·ûºÅ´®: b ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: b
+ACTION±í: s125
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 124, 125]
+·ûºÅÕ»:[#, D, T, b]
+·ûºÅ´®: ; double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s126
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 124, 125, 126]
+·ûºÅÕ»:[#, D, T, b, ;]
+·ûºÅ´®: double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: D -> T id ;
+ACTION±í: r6
+GOTO±í: 3
+×´Ì¬Õ»:[0, 2, 3]
+·ûºÅÕ»:[#, D, D]
+·ûºÅ´®: double sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: double
+ACTION±í: s128
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 128]
+·ûºÅÕ»:[#, D, D, double]
+·ûºÅ´®: sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: T -> double
+ACTION±í: r8
+GOTO±í: 124
+×´Ì¬Õ»:[0, 2, 3, 124]
+·ûºÅÕ»:[#, D, D, T]
+·ûºÅ´®: sum ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: sum
+ACTION±í: s125
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 124, 125]
+·ûºÅÕ»:[#, D, D, T, sum]
+·ûºÅ´®: ; a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s126
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 124, 125, 126]
+·ûºÅÕ»:[#, D, D, T, sum, ;]
+·ûºÅ´®: a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: D -> T id ;
+ACTION±í: r6
+GOTO±í: 3
+×´Ì¬Õ»:[0, 2, 3, 3]
+·ûºÅÕ»:[#, D, D, D]
+·ûºÅ´®: a = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: a
+ACTION±í: s6
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 6]
+·ûºÅÕ»:[#, D, D, D, a]
+·ûºÅ´®: = 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: =
+ACTION±í: s7
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 6, 7]
+·ûºÅÕ»:[#, D, D, D, a, =]
+·ûºÅ´®: 1 ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: 1
+ACTION±í: s29
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 6, 7, 29]
+·ûºÅÕ»:[#, D, D, D, a, =, 1]
+·ûºÅ´®: ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> num
+ACTION±í: r16
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 6, 7, 30]
+·ûºÅÕ»:[#, D, D, D, a, =, E2]
+·ûºÅ´®: ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 31
+×´Ì¬Õ»:[0, 2, 3, 3, 6, 7, 31]
+·ûºÅÕ»:[#, D, D, D, a, =, E1]
+·ûºÅ´®: ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 8
+×´Ì¬Õ»:[0, 2, 3, 3, 6, 7, 8]
+·ûºÅÕ»:[#, D, D, D, a, =, E]
+·ûºÅ´®: ; b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s9
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 6, 7, 8, 9]
+·ûºÅÕ»:[#, D, D, D, a, =, E, ;]
+·ûºÅ´®: b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A -> id = E ;
+ACTION±í: r9
+GOTO±í: 4
+×´Ì¬Õ»:[0, 2, 3, 3, 4]
+·ûºÅÕ»:[#, D, D, D, A]
+·ûºÅ´®: b = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: b
+ACTION±í: s6
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 6]
+·ûºÅÕ»:[#, D, D, D, A, b]
+·ûºÅ´®: = 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: =
+ACTION±í: s7
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 6, 7]
+·ûºÅÕ»:[#, D, D, D, A, b, =]
+·ûºÅ´®: 2 ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: 2
+ACTION±í: s29
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 6, 7, 29]
+·ûºÅÕ»:[#, D, D, D, A, b, =, 2]
+·ûºÅ´®: ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> num
+ACTION±í: r16
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 6, 7, 30]
+·ûºÅÕ»:[#, D, D, D, A, b, =, E2]
+·ûºÅ´®: ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 31
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 6, 7, 31]
+·ûºÅÕ»:[#, D, D, D, A, b, =, E1]
+·ûºÅ´®: ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 8
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 6, 7, 8]
+·ûºÅÕ»:[#, D, D, D, A, b, =, E]
+·ûºÅ´®: ; sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s9
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 6, 7, 8, 9]
+·ûºÅÕ»:[#, D, D, D, A, b, =, E, ;]
+·ûºÅ´®: sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A -> id = E ;
+ACTION±í: r9
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5]
+·ûºÅÕ»:[#, D, D, D, A, A]
+·ûºÅ´®: sum = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: sum
+ACTION±í: s6
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 6]
+·ûºÅÕ»:[#, D, D, D, A, A, sum]
+·ûºÅ´®: = 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: =
+ACTION±í: s7
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 6, 7]
+·ûºÅÕ»:[#, D, D, D, A, A, sum, =]
+·ûºÅ´®: 0 ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: 0
+ACTION±í: s29
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 6, 7, 29]
+·ûºÅÕ»:[#, D, D, D, A, A, sum, =, 0]
+·ûºÅ´®: ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> num
+ACTION±í: r16
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 6, 7, 30]
+·ûºÅÕ»:[#, D, D, D, A, A, sum, =, E2]
+·ûºÅ´®: ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 31
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 6, 7, 31]
+·ûºÅÕ»:[#, D, D, D, A, A, sum, =, E1]
+·ûºÅ´®: ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 8
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 6, 7, 8]
+·ûºÅÕ»:[#, D, D, D, A, A, sum, =, E]
+·ûºÅ´®: ; while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s9
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 6, 7, 8, 9]
+·ûºÅÕ»:[#, D, D, D, A, A, sum, =, E, ;]
+·ûºÅ´®: while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A -> id = E ;
+ACTION±í: r9
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5]
+·ûºÅÕ»:[#, D, D, D, A, A, A]
+·ûºÅ´®: while true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: while
+ACTION±í: s34
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while]
+·ûºÅ´®: true do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: true
+ACTION±í: s115
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 115]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, true]
+·ûºÅ´®: do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: B -> true
+ACTION±í: r27
+GOTO±í: 35
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B]
+·ûºÅ´®: do { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: do
+ACTION±í: s36
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do]
+·ûºÅ´®: { a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: {
+ACTION±í: s38
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {]
+·ûºÅ´®: a = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: a
+ACTION±í: s44
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a]
+·ûºÅ´®: = a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: =
+ACTION±í: s45
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =]
+·ûºÅ´®: a + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: a
+ACTION±í: s28
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 28]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, a]
+·ûºÅ´®: + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> id
+ACTION±í: r15
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 30]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E2]
+·ûºÅ´®: + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 31
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 31]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E1]
+·ûºÅ´®: + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 46
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 46]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E]
+·ûºÅ´®: + 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: +
+ACTION±í: s10
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 46, 10]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E, +]
+·ûºÅ´®: 1 ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: 1
+ACTION±í: s29
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 46, 10, 29]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E, +, 1]
+·ûºÅ´®: ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> num
+ACTION±í: r16
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 46, 10, 30]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E, +, E2]
+·ûºÅ´®: ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 11
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 46, 10, 11]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E, +, E1]
+·ûºÅ´®: ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E + E1
+ACTION±í: r10
+GOTO±í: 46
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 46]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E]
+·ûºÅ´®: ; } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s47
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 44, 45, 46, 47]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, a, =, E, ;]
+·ûºÅ´®: } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A -> id = E ;
+ACTION±í: r9
+GOTO±í: 57
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 57]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, A]
+·ûºÅ´®: } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A3 -> A
+ACTION±í: r25
+GOTO±í: 39
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 39]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, A3]
+·ûºÅ´®: } if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: }
+ACTION±í: s40
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 38, 39, 40]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, {, A3, }]
+·ûºÅ´®: if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A0 -> { A3 }
+ACTION±í: r21
+GOTO±í: 37
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 34, 35, 36, 37]
+·ûºÅÕ»:[#, D, D, D, A, A, A, while, B, do, A0]
+·ûºÅ´®: if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A1 -> while B do A0
+ACTION±í: r19
+GOTO±í: 32
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 32]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A1]
+·ûºÅ´®: if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A -> A1
+ACTION±í: r17
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A]
+·ûºÅ´®: if b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: if
+ACTION±í: s120
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if]
+·ûºÅ´®: b > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: b
+ACTION±í: s89
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 89]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, b]
+·ûºÅ´®: > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> id
+ACTION±í: r15
+GOTO±í: 91
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 91]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E2]
+·ûºÅ´®: > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 100
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 100]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E1]
+·ûºÅ´®: > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 68
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 68]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E]
+·ûºÅ´®: > a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: >
+ACTION±í: s96
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 68, 96]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E, >]
+·ûºÅ´®: a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: JG -> >
+ACTION±í: r33
+GOTO±í: 69
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 68, 69]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E, JG]
+·ûºÅ´®: a then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: a
+ACTION±í: s78
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 68, 69, 78]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E, JG, a]
+·ûºÅ´®: then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> id
+ACTION±í: r15
+GOTO±í: 80
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 68, 69, 80]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E, JG, E2]
+·ûºÅ´®: then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 81
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 68, 69, 81]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E, JG, E1]
+·ûºÅ´®: then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 70
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 68, 69, 70]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, E, JG, E]
+·ûºÅ´®: then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: B -> E JG E
+ACTION±í: r26
+GOTO±í: 121
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B]
+·ûºÅ´®: then { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: then
+ACTION±í: s122
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then]
+·ûºÅ´®: { sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: {
+ACTION±í: s38
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {]
+·ûºÅ´®: sum = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: sum
+ACTION±í: s44
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum]
+·ûºÅ´®: = sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: =
+ACTION±í: s45
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =]
+·ûºÅ´®: sum + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: sum
+ACTION±í: s28
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 28]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, sum]
+·ûºÅ´®: + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> id
+ACTION±í: r15
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 30]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E2]
+·ûºÅ´®: + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 31
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 31]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E1]
+·ûºÅ´®: + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 46
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 46]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E]
+·ûºÅ´®: + a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: +
+ACTION±í: s10
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 46, 10]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E, +]
+·ûºÅ´®: a ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: a
+ACTION±í: s28
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 46, 10, 28]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E, +, a]
+·ûºÅ´®: ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> id
+ACTION±í: r15
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 46, 10, 30]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E, +, E2]
+·ûºÅ´®: ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 11
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 46, 10, 11]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E, +, E1]
+·ûºÅ´®: ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E + E1
+ACTION±í: r10
+GOTO±í: 46
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 46]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E]
+·ûºÅ´®: ; } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s47
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 44, 45, 46, 47]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, sum, =, E, ;]
+·ûºÅ´®: } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A -> id = E ;
+ACTION±í: r9
+GOTO±í: 57
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 57]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, A]
+·ûºÅ´®: } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A3 -> A
+ACTION±í: r25
+GOTO±í: 39
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 39]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, A3]
+·ûºÅ´®: } while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: }
+ACTION±í: s40
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 38, 39, 40]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, {, A3, }]
+·ûºÅ´®: while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A0 -> { A3 }
+ACTION±í: r21
+GOTO±í: 123
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 120, 121, 122, 123]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, if, B, then, A0]
+·ûºÅ´®: while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A2 -> if B then A0
+ACTION±í: r20
+GOTO±í: 33
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 33]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A2]
+·ûºÅ´®: while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: A -> A2
+ACTION±í: r18
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A]
+·ûºÅ´®: while true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: while
+ACTION±í: s34
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while]
+·ûºÅ´®: true do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: true
+ACTION±í: s115
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 115]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, true]
+·ûºÅ´®: do { if sum <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: B -> true
+ACTION±í: r27
+GOTO±í: 35
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B]
+·ûºÅ´®: do { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: do
+ACTION±í: s36
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do]
+·ûºÅ´®: { if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: {
+ACTION±í: s38
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {]
+·ûºÅ´®: if sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: if
+ACTION±í: s64
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if]
+·ûºÅ´®: sum <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: sum
+ACTION±í: s89
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 89]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, sum]
+·ûºÅ´®: <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> id
+ACTION±í: r15
+GOTO±í: 91
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 91]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E2]
+·ûºÅ´®: <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 100
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 100]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E1]
+·ûºÅ´®: <= 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 68
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 68]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E]
+·ûºÅ´®: <= 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: <=
+ACTION±í: s93
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 68, 93]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E, <=]
+·ûºÅ´®: 10 then { sum = sum + b ; } } # 
+
+¹æÔ¼: JG -> <=
+ACTION±í: r30
+GOTO±í: 69
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 68, 69]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E, JG]
+·ûºÅ´®: 10 then { sum = sum + b ; } } # 
+
+ÒÆÈë: 10
+ACTION±í: s79
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 68, 69, 79]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E, JG, 10]
+·ûºÅ´®: then { sum = sum + b ; } } # 
+
+¹æÔ¼: E2 -> num
+ACTION±í: r16
+GOTO±í: 80
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 68, 69, 80]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E, JG, E2]
+·ûºÅ´®: then { sum = sum + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 81
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 68, 69, 81]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E, JG, E1]
+·ûºÅ´®: then { sum = sum + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 70
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 68, 69, 70]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, E, JG, E]
+·ûºÅ´®: then { sum = sum + b ; } } # 
+
+¹æÔ¼: B -> E JG E
+ACTION±í: r26
+GOTO±í: 65
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B]
+·ûºÅ´®: then { sum = sum + b ; } } # 
+
+ÒÆÈë: then
+ACTION±í: s66
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then]
+·ûºÅ´®: { sum = sum + b ; } } # 
+
+ÒÆÈë: {
+ACTION±í: s54
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {]
+·ûºÅ´®: sum = sum + b ; } } # 
+
+ÒÆÈë: sum
+ACTION±í: s44
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum]
+·ûºÅ´®: = sum + b ; } } # 
+
+ÒÆÈë: =
+ACTION±í: s45
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =]
+·ûºÅ´®: sum + b ; } } # 
+
+ÒÆÈë: sum
+ACTION±í: s28
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 28]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, sum]
+·ûºÅ´®: + b ; } } # 
+
+¹æÔ¼: E2 -> id
+ACTION±í: r15
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 30]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E2]
+·ûºÅ´®: + b ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 31
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 31]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E1]
+·ûºÅ´®: + b ; } } # 
+
+¹æÔ¼: E -> E1
+ACTION±í: r11
+GOTO±í: 46
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 46]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E]
+·ûºÅ´®: + b ; } } # 
+
+ÒÆÈë: +
+ACTION±í: s10
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 46, 10]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E, +]
+·ûºÅ´®: b ; } } # 
+
+ÒÆÈë: b
+ACTION±í: s28
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 46, 10, 28]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E, +, b]
+·ûºÅ´®: ; } } # 
+
+¹æÔ¼: E2 -> id
+ACTION±í: r15
+GOTO±í: 30
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 46, 10, 30]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E, +, E2]
+·ûºÅ´®: ; } } # 
+
+¹æÔ¼: E1 -> E2
+ACTION±í: r13
+GOTO±í: 11
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 46, 10, 11]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E, +, E1]
+·ûºÅ´®: ; } } # 
+
+¹æÔ¼: E -> E + E1
+ACTION±í: r10
+GOTO±í: 46
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 46]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E]
+·ûºÅ´®: ; } } # 
+
+ÒÆÈë: ;
+ACTION±í: s47
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 44, 45, 46, 47]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, sum, =, E, ;]
+·ûºÅ´®: } } # 
+
+¹æÔ¼: A -> id = E ;
+ACTION±í: r9
+GOTO±í: 57
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 57]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, A]
+·ûºÅ´®: } } # 
+
+¹æÔ¼: A3 -> A
+ACTION±í: r25
+GOTO±í: 55
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 55]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, A3]
+·ûºÅ´®: } } # 
+
+ÒÆÈë: }
+ACTION±í: s56
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 54, 55, 56]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, {, A3, }]
+·ûºÅ´®: } # 
+
+¹æÔ¼: A0 -> { A3 }
+ACTION±í: r21
+GOTO±í: 67
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 64, 65, 66, 67]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, if, B, then, A0]
+·ûºÅ´®: } # 
+
+¹æÔ¼: A2 -> if B then A0
+ACTION±í: r20
+GOTO±í: 49
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 49]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, A2]
+·ûºÅ´®: } # 
+
+¹æÔ¼: A -> A2
+ACTION±í: r18
+GOTO±í: 57
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 57]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, A]
+·ûºÅ´®: } # 
+
+¹æÔ¼: A3 -> A
+ACTION±í: r25
+GOTO±í: 39
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 39]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, A3]
+·ûºÅ´®: } # 
+
+ÒÆÈë: }
+ACTION±í: s40
+GOTO±í: --
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 38, 39, 40]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, {, A3, }]
+·ûºÅ´®: # 
+
+¹æÔ¼: A0 -> { A3 }
+ACTION±í: r21
+GOTO±í: 37
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 34, 35, 36, 37]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, while, B, do, A0]
+·ûºÅ´®: # 
+
+¹æÔ¼: A1 -> while B do A0
+ACTION±í: r19
+GOTO±í: 32
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 32]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, A1]
+·ûºÅ´®: # 
+
+¹æÔ¼: A -> A1
+ACTION±í: r17
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5, 5]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A, A]
+·ûºÅ´®: # 
+
+¹æÔ¼: A -> A A
+ACTION±í: r3
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5, 5]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A, A]
+·ûºÅ´®: # 
+
+¹æÔ¼: A -> A A
+ACTION±í: r3
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5, 5]
+·ûºÅÕ»:[#, D, D, D, A, A, A, A]
+·ûºÅ´®: # 
+
+¹æÔ¼: A -> A A
+ACTION±í: r3
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5, 5]
+·ûºÅÕ»:[#, D, D, D, A, A, A]
+·ûºÅ´®: # 
+
+¹æÔ¼: A -> A A
+ACTION±í: r3
+GOTO±í: 5
+×´Ì¬Õ»:[0, 2, 3, 3, 4, 5]
+·ûºÅÕ»:[#, D, D, D, A, A]
+·ûºÅ´®: # 
+
+¹æÔ¼: A -> A A
+ACTION±í: r3
+GOTO±í: 4
+×´Ì¬Õ»:[0, 2, 3, 3, 4]
+·ûºÅÕ»:[#, D, D, D, A]
+·ûºÅ´®: # 
+
+¹æÔ¼: D -> D A
+ACTION±í: r5
+GOTO±í: 3
+×´Ì¬Õ»:[0, 2, 3, 3]
+·ûºÅÕ»:[#, D, D, D]
+·ûºÅ´®: # 
+
+¹æÔ¼: D -> D D
+ACTION±í: r4
+GOTO±í: 3
+×´Ì¬Õ»:[0, 2, 3]
+·ûºÅÕ»:[#, D, D]
+·ûºÅ´®: # 
+
+¹æÔ¼: D -> D D
+ACTION±í: r4
+GOTO±í: 2
+×´Ì¬Õ»:[0, 2]
+·ûºÅÕ»:[#, D]
+·ûºÅ´®: # 
+
+¹æÔ¼: S -> D
+ACTION±í: r1
+GOTO±í: 1
+×´Ì¬Õ»:[0, 1]
+·ûºÅÕ»:[#, S]
+·ûºÅ´®: # 
+
+acc£º
+×´Ì¬Õ»:[0, 1]
+·ûºÅÕ»:[#, S]
+Óï·¨·ÖÎöÍê³ÉYES

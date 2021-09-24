@@ -1,0 +1,19 @@
+0:  P' -> P
+1:  P -> D S  {print("语义分析完成")}
+2:  S -> S M S  {backpatch(S1.nextlist,M.huiAddress); S.nextlist=S2.nextlist;}
+
+3:  D -> D D
+4:  D -> T id ; {addChartoTable(top(tblptr), id.name, T.type, top(offset)); top(offset) := top(offset) + T.width}
+5:  T -> int  {T.type=int; T.width=4;}{type=T.type; width=T.width;}
+6:  T -> double  {T.type=double; T.width=8;}{type=T.type; width=T.width;}
+
+7:  S -> id = E ;  {p=isInTable(id.lexeme); if p==nil then error; gencode(p'='E.addr);} { S.nextlist = null; }
+8:  E -> E + E1  {E.addr=newtemp(); gencode(E.addr'='E.addr'+'E1.addr);}
+9:  E -> E1  {E.addr=E1.addr}
+10:  E1 -> E1 * E2  {E1.addr=newtemp(); gencode(E1.addr'='E1.addr'*'E2.addr);}
+11:  E1 -> E2  {E1.addr=E2.addr}
+12:  E2 -> id  {E2.addr=isInTable(id.lexeme); if E2.addr==null then error;}
+13:  E2 -> num  {E2.addr=isInTable(num.lexeme); if E2.addr==null then error}
+
+14:  M -> ε  {M.huiAddress := nextInsAddress}
+

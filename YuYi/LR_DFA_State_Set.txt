@@ -1,0 +1,186 @@
+
+I0:
+P'-> .P ,#
+P-> .D S ,#
+D-> .D D ,id
+D-> .T id ; ,id
+D-> .D D ,double
+D-> .D D ,int
+D-> .T id ; ,double
+D-> .T id ; ,int
+T-> .int ,id
+T-> .double ,id
+
+I1:
+P'-> P. ,#
+
+I2:
+P-> D .S ,#
+D-> D .D ,id
+D-> D .D ,double
+D-> D .D ,int
+S-> .S M S ,#
+S-> .id = E ; ,#
+D-> .D D ,id
+D-> .T id ; ,id
+D-> .D D ,double
+D-> .T id ; ,double
+D-> .D D ,int
+D-> .T id ; ,int
+S-> .S M S ,id
+S-> .id = E ; ,id
+T-> .int ,id
+T-> .double ,id
+
+I3:
+P-> D S. ,#
+S-> S .M S ,#
+S-> S .M S ,id
+M-> . ,id
+
+I4:
+S-> S M .S ,#
+S-> S M .S ,id
+S-> .S M S ,#
+S-> .id = E ; ,#
+S-> .S M S ,id
+S-> .id = E ; ,id
+
+I5:
+S-> S M S. ,#
+S-> S M S. ,id
+S-> S .M S ,#
+S-> S .M S ,id
+M-> . ,id
+
+I6:
+S-> id .= E ; ,#
+S-> id .= E ; ,id
+
+I7:
+S-> id = .E ; ,#
+S-> id = .E ; ,id
+E-> .E + E1 ,;
+E-> .E1 ,;
+E-> .E + E1 ,+
+E-> .E1 ,+
+E1-> .E1 * E2 ,;
+E1-> .E2 ,;
+E1-> .E1 * E2 ,+
+E1-> .E2 ,+
+E1-> .E1 * E2 ,*
+E1-> .E2 ,*
+E2-> .id ,;
+E2-> .num ,;
+E2-> .id ,+
+E2-> .num ,+
+E2-> .id ,*
+E2-> .num ,*
+
+I8:
+S-> id = E .; ,#
+S-> id = E .; ,id
+E-> E .+ E1 ,;
+E-> E .+ E1 ,+
+
+I9:
+S-> id = E ;. ,#
+S-> id = E ;. ,id
+
+I10:
+E-> E + .E1 ,;
+E-> E + .E1 ,+
+E1-> .E1 * E2 ,;
+E1-> .E2 ,;
+E1-> .E1 * E2 ,+
+E1-> .E2 ,+
+E1-> .E1 * E2 ,*
+E1-> .E2 ,*
+E2-> .id ,;
+E2-> .num ,;
+E2-> .id ,+
+E2-> .num ,+
+E2-> .id ,*
+E2-> .num ,*
+
+I11:
+E-> E + E1. ,;
+E-> E + E1. ,+
+E1-> E1 .* E2 ,;
+E1-> E1 .* E2 ,+
+E1-> E1 .* E2 ,*
+
+I12:
+E1-> E1 * .E2 ,;
+E1-> E1 * .E2 ,+
+E1-> E1 * .E2 ,*
+E2-> .id ,;
+E2-> .num ,;
+E2-> .id ,+
+E2-> .num ,+
+E2-> .id ,*
+E2-> .num ,*
+
+I13:
+E1-> E1 * E2. ,;
+E1-> E1 * E2. ,+
+E1-> E1 * E2. ,*
+
+I14:
+E2-> id. ,;
+E2-> id. ,+
+E2-> id. ,*
+
+I15:
+E2-> num. ,;
+E2-> num. ,+
+E2-> num. ,*
+
+I16:
+E1-> E2. ,;
+E1-> E2. ,+
+E1-> E2. ,*
+
+I17:
+E-> E1. ,;
+E-> E1. ,+
+E1-> E1 .* E2 ,;
+E1-> E1 .* E2 ,+
+E1-> E1 .* E2 ,*
+
+I18:
+D-> D D. ,id
+D-> D D. ,double
+D-> D D. ,int
+D-> D .D ,id
+D-> D .D ,double
+D-> D .D ,int
+D-> .D D ,id
+D-> .T id ; ,id
+D-> .D D ,double
+D-> .T id ; ,double
+D-> .D D ,int
+D-> .T id ; ,int
+T-> .int ,id
+T-> .double ,id
+
+I19:
+D-> T .id ; ,id
+D-> T .id ; ,double
+D-> T .id ; ,int
+
+I20:
+D-> T id .; ,id
+D-> T id .; ,double
+D-> T id .; ,int
+
+I21:
+D-> T id ;. ,id
+D-> T id ;. ,double
+D-> T id ;. ,int
+
+I22:
+T-> int. ,id
+
+I23:
+T-> double. ,id

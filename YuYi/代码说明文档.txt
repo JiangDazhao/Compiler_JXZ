@@ -1,0 +1,8 @@
+使用java编写的语法分析器YuYi，运行YuYi.exe即可。
+包括：
+1.可执行文件YuYi.exe
+2.语法分析过程（符号栈，状态栈变化）LR_Analysis_Result.txt
+3.LR（1）分析表LR_Analysis_Table.txt
+4.项目集族LR_DFA_State_Set.txt
+5.测试实例test.txt
+6.语义动作表 语义动作.txt

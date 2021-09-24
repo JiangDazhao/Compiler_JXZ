@@ -1,0 +1,29 @@
+    int a;
+    int b;
+    double sum;
+
+    a=1;
+    b=2;
+    sum=0;
+    
+    while true do 
+    {
+        a=a+1;
+    }
+    
+    if b>a then 
+    {
+        sum=sum+a;
+    }
+    
+    while true do 
+    {
+        if sum<=10 then 
+        {
+            sum=sum+b;
+        }
+    }
+
+    
+ 
+        

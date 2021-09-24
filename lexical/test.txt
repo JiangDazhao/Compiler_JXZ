@@ -1,0 +1,17 @@
+int main ( )
+{
+int a = 0 ;
+int b = +123 ;
+float c = 3.1415926 ;
+float d_kexue = +2.32e+1 ;
+float num_kexue = -22.3e-1 ;
+complex fu_shu = 10+12i ;
+double d = 15.1 * 16.2 ;
+switch ( a ) 
+{
+1 : break ;
+2 : break ;
+default : break ;
+}
+int 123abc ;
+float $abc ;

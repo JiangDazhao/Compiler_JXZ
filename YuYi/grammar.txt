@@ -1,0 +1,26 @@
+P'-> P
+P -> D S 
+S -> S M S
+D -> D D 
+D -> T id ;
+
+T -> int 
+T -> double
+
+
+S -> id = E ;
+E -> E + E1 
+E -> E1
+E1 -> E1 * E2 
+E1 -> E2
+E2 -> id  
+E2 -> num
+
+M -> ¦Å
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+使用java编写的词法分析器lexical，运行lexical.exe即可。
+包括：
+1.可执行文件lexical.exe
+2.三型文法产生式lexicalgram.txt
+3.词法分析测试文档test.txt
+4.token列表Token.txt

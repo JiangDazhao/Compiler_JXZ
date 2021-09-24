@@ -1,0 +1,38 @@
+S'-> S
+S -> D
+S -> A
+A -> A A
+D -> D D 
+D -> D A 
+D -> T id ;
+T -> int 
+T -> double
+A -> id = E ; 
+E -> E + E1 
+E -> E1
+E1 -> E1 * E2 
+E1 -> E2
+E2 -> ( E ) 
+E2 -> id 
+E2 -> num 
+A -> A1 
+A -> A2
+A1 -> while B do A0
+A2 -> if B then A0
+A0  -> { A3 }
+A1 -> { A3 }
+A2 -> { A3 }
+A3 -> A3 ; A 
+A3 -> A
+B -> E JG E 
+B -> true 
+B -> false
+JG -> < 
+JG -> <= 
+JG -> == 
+JG -> != 
+JG -> > 
+JG -> >=
+
+
+
